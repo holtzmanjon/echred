@@ -1,0 +1,3 @@
+'rm' *.fits*
+'rm' *.log logfile
+'rm' *.lis

@@ -1,0 +1,9 @@
+images,s,a,"@arcs_extracted",,,"Spectra to be reidentified"
+reference,f,a,"040110.0025.ec",,,"Reference spectrum"
+shift,r,h,INDEF,,,"Shift to add to reference features"
+cradius,r,h,1.,,,"Centering radius"
+threshold,r,h,50.,0.,,"Feature threshold for centering"
+refit,b,h,yes,,,"Refit coordinate function?"
+database,f,h,"database",,,"Database"
+logfiles,s,h,"STDOUT,logfile",,,"List of log files"
+mode,s,h,"ql",,,

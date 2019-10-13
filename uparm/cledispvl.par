@@ -1,0 +1,3 @@
+inputlist,s,a,"inlist/060416.lst",,,"Input list"
+list,*s,h,"inlist/060416.lst",,,
+mode,s,h,"ql",,,

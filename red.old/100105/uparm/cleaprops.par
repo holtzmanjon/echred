@@ -1,0 +1,3 @@
+topic,s,ql,"apall",,,">Apropos ? "
+index,f,h,"stsdas$lib/apropos.db",,,">index to search"
+mode,s,h,"ql",,,

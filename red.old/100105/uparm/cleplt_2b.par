@@ -1,0 +1,4 @@
+inspectrum,s,a,"060118/060118.0031",,,"Spectrum prefix"
+aperture,i,a,32,,,"Aperture"
+lambda,r,a,6562.8,,,"Wavelength"
+mode,s,h,"ql",,,

@@ -1,0 +1,3317 @@
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 1 1024. 316.5612
+	image	newap
+	aperture	1
+	beam	1
+	center	1024. 1266.245
+	low	-1023. -3.988403
+	high	1024. 2.672089
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		3.837823
+		-2.978275
+		15.70927
+		0.01977393
+		0.04789558
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 2 1024. 326.5222
+	image	newap
+	aperture	2
+	beam	2
+	center	1024. 1306.089
+	low	-1023. -3.855682
+	high	1024. 2.855072
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		3.884315
+		-2.963864
+		15.73746
+		-0.007680793
+		0.06081761
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 3 1024. 335.834
+	image	newap
+	aperture	3
+	beam	3
+	center	1024. 1343.336
+	low	-1023. -3.622498
+	high	1024. 3.069763
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.443202
+		-2.934055
+		15.73335
+		-0.02039599
+		0.07699664
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 4 1024. 345.2466
+	image	newap
+	aperture	4
+	beam	4
+	center	1024. 1380.986
+	low	-1023. -3.363281
+	high	1024. 3.31311
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.770456
+		-2.909358
+		15.71371
+		-0.04189868
+		0.06573784
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 5 1024. 354.957
+	image	newap
+	aperture	5
+	beam	5
+	center	1024. 1419.828
+	low	-1023. -3.424011
+	high	1024. 3.256134
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.682219
+		-2.891247
+		15.73643
+		-0.03800106
+		0.07484107
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 6 1024. 364.0215
+	image	newap
+	aperture	6
+	beam	6
+	center	1024. 1456.086
+	low	-1023. -3.214569
+	high	1024. 3.431671
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.129235
+		-2.860412
+		15.74065
+		-0.0275461
+		0.07539988
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 7 1024. 373.364
+	image	newap
+	aperture	7
+	beam	7
+	center	1024. 1493.456
+	low	-1023. -3.248322
+	high	1024. 3.386993
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.199348
+		-2.825818
+		15.7504
+		-0.0417302
+		0.06295432
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 8 1024. 382.8367
+	image	newap
+	aperture	8
+	beam	8
+	center	1024. 1531.347
+	low	-1023. -2.990479
+	high	1024. 3.691315
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.053672
+		-2.790271
+		15.7474
+		-0.04635523
+		0.07340322
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 9 1024. 392.3015
+	image	newap
+	aperture	9
+	beam	9
+	center	1024. 1569.206
+	low	-1023. -2.916504
+	high	1024. 3.735413
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.841726
+		-2.743018
+		15.74829
+		-0.04689946
+		0.08035561
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 10 1024. 401.3163
+	image	newap
+	aperture	10
+	beam	10
+	center	1024. 1605.265
+	low	-1023. -2.93634
+	high	1024. 3.724884
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.018919
+		-2.695266
+		15.76129
+		-0.03941692
+		0.07919684
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 11 1024. 410.4408
+	image	newap
+	aperture	11
+	beam	11
+	center	1024. 1641.763
+	low	-1023. -2.916138
+	high	1024. 3.72641
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.036736
+		-2.643472
+		15.76667
+		-0.03544835
+		0.06543003
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 12 1024. 419.6747
+	image	newap
+	aperture	12
+	beam	12
+	center	1024. 1678.699
+	low	-1023. -2.874054
+	high	1024. 3.723206
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.903918
+		-2.584971
+		15.76595
+		-0.04400069
+		0.07365698
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 13 1024. 429.1503
+	image	newap
+	aperture	13
+	beam	13
+	center	1024. 1716.601
+	low	-1023. -2.816772
+	high	1024. 3.737122
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.494257
+		-2.516155
+		15.77082
+		-0.04989249
+		0.07474227
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 14 1024. 437.6808
+	image	newap
+	aperture	14
+	beam	14
+	center	1024. 1750.723
+	low	-1023. -2.771271
+	high	1024. 3.821747
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.002303
+		-2.441441
+		15.78463
+		-0.05431323
+		0.09197164
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 15 1024. 446.4276
+	image	newap
+	aperture	15
+	beam	15
+	center	1024. 1785.710
+	low	-1023. -2.721771
+	high	1024. 3.896393
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.281254
+		-2.363343
+		15.79321
+		-0.03687702
+		0.08389306
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 16 1024. 455.2751
+	image	newap
+	aperture	16
+	beam	16
+	center	1024. 1821.100
+	low	-1023. -2.704895
+	high	1024. 3.980255
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.454629
+		-2.283133
+		15.79343
+		-0.04404371
+		0.08632625
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 17 1024. 464.1418
+	image	newap
+	aperture	17
+	beam	17
+	center	1024. 1856.567
+	low	-1023. -2.644714
+	high	1024. 4.023102
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.596135
+		-2.195537
+		15.80054
+		-0.04530121
+		0.07476339
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 18 1024. 472.998
+	image	newap
+	aperture	18
+	beam	18
+	center	1024. 1891.992
+	low	-1023. -2.624969
+	high	1024. 4.041321
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.751806
+		-2.103377
+		15.80899
+		-0.04234495
+		0.07362445
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 19 1024. 481.9677
+	image	newap
+	aperture	19
+	beam	19
+	center	1024. 1927.871
+	low	-1023. -2.59021
+	high	1024. 4.091125
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.799223
+		-2.012049
+		15.82193
+		-0.0522335
+		0.0911879
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 20 1024. 491.0862
+	image	newap
+	aperture	20
+	beam	20
+	center	1024. 1964.345
+	low	-1023. -2.577423
+	high	1024. 4.125
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.712631
+		-1.912046
+		15.83621
+		-0.04522929
+		0.07283624
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 21 1024. 500.058
+	image	newap
+	aperture	21
+	beam	21
+	center	1024. 2000.232
+	low	-1023. -2.554901
+	high	1024. 4.170868
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.793407
+		-1.807099
+		15.83274
+		-0.04776564
+		0.0781407
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 22 1024. 508.9572
+	image	newap
+	aperture	22
+	beam	22
+	center	1024. 2035.829
+	low	-1023. -2.492981
+	high	1024. 4.21991
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.965041
+		-1.700038
+		15.8413
+		-0.04921075
+		0.07728404
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 23 1024. 518.1838
+	image	newap
+	aperture	23
+	beam	23
+	center	1024. 2072.735
+	low	-1023. -2.368408
+	high	1024. 4.247803
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.837323
+		-1.587442
+		15.84602
+		-0.05060901
+		0.07887671
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 24 1024. 527.0477
+	image	newap
+	aperture	24
+	beam	24
+	center	1024. 2108.191
+	low	-1023. -2.422058
+	high	1024. 4.23822
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.104047
+		-1.472139
+		15.86314
+		-0.04928974
+		0.0794332
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 25 1024. 536.4067
+	image	newap
+	aperture	25
+	beam	25
+	center	1024. 2145.627
+	low	-1023. -2.498474
+	high	1024. 4.181274
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.910098
+		-1.351392
+		15.87805
+		-0.04921313
+		0.06827958
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 26 1024. 545.5735
+	image	newap
+	aperture	26
+	beam	26
+	center	1024. 2182.294
+	low	-1023. -2.579285
+	high	1024. 4.077698
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.952121
+		-1.226779
+		15.87875
+		-0.04891088
+		0.0688779
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 27 1024. 554.9247
+	image	newap
+	aperture	27
+	beam	27
+	center	1024. 2219.699
+	low	-1023. -2.595886
+	high	1024. 4.142212
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.851091
+		-1.096569
+		15.88192
+		-0.04866287
+		0.0711058
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 28 1024. 564.1862
+	image	newap
+	aperture	28
+	beam	28
+	center	1024. 2256.745
+	low	-1023. -2.397644
+	high	1024. 4.254761
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.886831
+		-0.962379
+		15.89357
+		-0.05295933
+		0.08158781
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 29 1024. 573.3309
+	image	newap
+	aperture	29
+	beam	29
+	center	1024. 2293.323
+	low	-1023. -2.567017
+	high	1024. 4.127319
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.086314
+		-0.824239
+		15.90995
+		-0.05340268
+		0.07073159
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 30 1024. 581.8324
+	image	newap
+	aperture	30
+	beam	30
+	center	1024. 2327.330
+	low	-1023. -2.640747
+	high	1024. 4.161865
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.993357
+		-0.6828721
+		15.90796
+		-0.05299712
+		0.07483684
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 31 1024. 592.1976
+	image	newap
+	aperture	31
+	beam	31
+	center	1024. 2368.790
+	low	-1023. -2.523254
+	high	1024. 4.173157
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.082312
+		-0.5376074
+		15.92171
+		-0.05660217
+		0.06616016
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 32 1024. 601.3121
+	image	newap
+	aperture	32
+	beam	32
+	center	1024. 2405.248
+	low	-1023. -2.676758
+	high	1024. 4.117065
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.481706
+		-0.3885783
+		15.9266
+		-0.05380899
+		0.06789467
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 33 1024. 611.4072
+	image	newap
+	aperture	33
+	beam	33
+	center	1024. 2445.629
+	low	-1023. -2.593506
+	high	1024. 4.111511
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.961787
+		-0.2368652
+		15.94539
+		-0.05477811
+		0.07058907
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 34 1024. 620.8381
+	image	newap
+	aperture	34
+	beam	34
+	center	1024. 2483.352
+	low	-1023. -2.611023
+	high	1024. 4.183716
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.173516
+		-0.08128709
+		15.95278
+		-0.05449634
+		0.06281551
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 35 1024. 630.2574
+	image	newap
+	aperture	35
+	beam	35
+	center	1024. 2521.030
+	low	-1023. -2.749939
+	high	1024. 4.001587
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.463672
+		0.07701822
+		15.95792
+		-0.05610421
+		0.06129052
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 36 1024. 640.4664
+	image	newap
+	aperture	36
+	beam	36
+	center	1024. 2561.865
+	low	-1023. -2.703735
+	high	1024. 4.018372
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.028935
+		0.2387454
+		15.96549
+		-0.05800779
+		0.06021938
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 37 1024. 650.2472
+	image	newap
+	aperture	37
+	beam	37
+	center	1024. 2600.989
+	low	-1023. -2.650391
+	high	1024. 4.068115
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.094965
+		0.4024437
+		15.97891
+		-0.05677228
+		0.06832696
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 38 1024. 659.8645
+	image	newap
+	aperture	38
+	beam	38
+	center	1024. 2639.458
+	low	-1023. -2.62677
+	high	1024. 4.0896
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.39842
+		0.5688714
+		15.99611
+		-0.05839183
+		0.05829385
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 39 1024. 669.9297
+	image	newap
+	aperture	39
+	beam	39
+	center	1024. 2679.719
+	low	-1023. -2.658875
+	high	1024. 4.064575
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.333254
+		0.7392433
+		15.99782
+		-0.05925755
+		0.06256144
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 40 1024. 680.1959
+	image	newap
+	aperture	40
+	beam	40
+	center	1024. 2720.784
+	low	-1023. -2.712769
+	high	1024. 4.027405
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.137799
+		0.9121557
+		16.00589
+		-0.06517873
+		0.05794449
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 41 1024. 690.6023
+	image	newap
+	aperture	41
+	beam	41
+	center	1024. 2762.409
+	low	-1023. -2.80603
+	high	1024. 3.938171
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.881519
+		1.090271
+		16.01688
+		-0.06455112
+		0.06227035
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 42 1024. 700.4546
+	image	newap
+	aperture	42
+	beam	42
+	center	1024. 2801.818
+	low	-1023. -2.911072
+	high	1024. 3.838928
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.263975
+		1.273907
+		16.03144
+		-0.06301188
+		0.0545693
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 43 1024. 710.7253
+	image	newap
+	aperture	43
+	beam	43
+	center	1024. 2842.901
+	low	-1023. -2.914124
+	high	1024. 4.019531
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.316242
+		1.453381
+		16.02921
+		-0.06276815
+		0.06420802
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 44 1024. 721.3674
+	image	newap
+	aperture	44
+	beam	44
+	center	1024. 2885.469
+	low	-1023. -2.849243
+	high	1024. 3.894531
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.068923
+		1.643024
+		16.0473
+		-0.06338818
+		0.05706362
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 45 1024. 731.667
+	image	newap
+	aperture	45
+	beam	45
+	center	1024. 2926.668
+	low	-1023. -3.007385
+	high	1024. 3.940918
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.255495
+		1.83439
+		16.05395
+		-0.06003721
+		0.06352177
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 46 1024. 742.3656
+	image	newap
+	aperture	46
+	beam	46
+	center	1024. 2969.462
+	low	-1023. -2.928833
+	high	1024. 3.818115
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.128219
+		2.030199
+		16.07585
+		-0.06364924
+		0.05310973
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 47 1024. 752.7931
+	image	newap
+	aperture	47
+	beam	47
+	center	1024. 3011.172
+	low	-1023. -2.947449
+	high	1024. 3.91864
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.369703
+		2.230824
+		16.07655
+		-0.067017
+		0.04955048
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 48 1024. 763.7336
+	image	newap
+	aperture	48
+	beam	48
+	center	1024. 3054.934
+	low	-1023. -3.102722
+	high	1024. 3.895691
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.187664
+		2.434291
+		16.08585
+		-0.06490043
+		0.058102
+          
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 49 1024. 774.5931
+	image	newap
+	aperture	49
+	beam	49
+	center	1024. 3098.372
+	low	-1023. -3.114929
+	high	1024. 3.740479
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.176383
+		2.643734
+		16.09831
+		-0.06159674
+		0.05515514
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 50 1024. 785.6523
+	image	newap
+	aperture	50
+	beam	50
+	center	1024. 3142.609
+	low	-1023. -3.122803
+	high	1024. 3.625488
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.063221
+		2.846509
+		16.11962
+		-0.06882637
+		0.06044171
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 51 1024. 796.5798
+	image	newap
+	aperture	51
+	beam	51
+	center	1024. 3186.319
+	low	-1023. -3.171204
+	high	1024. 3.666321
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.180243
+		3.06411
+		16.11089
+		-0.06733951
+		0.04836898
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 52 1024. 807.7212
+	image	newap
+	aperture	52
+	beam	52
+	center	1024. 3230.885
+	low	-1023. -3.210999
+	high	1024. 3.764832
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.173704
+		3.276625
+		16.12152
+		-0.07059219
+		0.04774368
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 53 1024. 819.1133
+	image	newap
+	aperture	53
+	beam	53
+	center	1024. 3276.453
+	low	-1023. -3.186707
+	high	1024. 3.782166
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.01389
+		3.496745
+		16.13287
+		-0.07131275
+		0.0652016
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 54 1024. 830.4249
+	image	newap
+	aperture	54
+	beam	54
+	center	1024. 3321.700
+	low	-1023. -3.131531
+	high	1024. 3.653076
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.032277
+		3.722591
+		16.15026
+		-0.07251197
+		0.05415803
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 55 1024. 841.9603
+	image	newap
+	aperture	55
+	beam	55
+	center	1024. 3367.841
+	low	-1023. -3.313232
+	high	1024. 3.668518
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.933251
+		3.950303
+		16.1553
+		-0.06055252
+		0.05035741
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 56 1024. 853.4541
+	image	newap
+	aperture	56
+	beam	56
+	center	1024. 3413.816
+	low	-1023. -3.191711
+	high	1024. 3.604492
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.976079
+		4.171478
+		16.16726
+		-0.07670148
+		0.06316904
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 57 1024. 865.1133
+	image	newap
+	aperture	57
+	beam	57
+	center	1024. 3460.453
+	low	-1023. -3.367737
+	high	1024. 3.663574
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.953625
+		4.414126
+		16.18048
+		-0.06180244
+		0.05903469
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 58 1024. 877.0575
+	image	newap
+	aperture	58
+	beam	58
+	center	1024. 3508.230
+	low	-1023. -3.402832
+	high	1024. 3.515076
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.752908
+		4.652087
+		16.20509
+		-0.07444468
+		0.05507953
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 59 1024. 888.6069
+	image	newap
+	aperture	59
+	beam	59
+	center	1024. 3554.427
+	low	-1023. -3.388306
+	high	1024. 3.402649
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.059313
+		4.8924
+		16.20306
+		-0.07006731
+		0.05923891
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 60 1024. 900.7032
+	image	newap
+	aperture	60
+	beam	60
+	center	1024. 3602.813
+	low	-1023. -3.401978
+	high	1024. 3.396301
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.922108
+		5.1385
+		16.21136
+		-0.06463186
+		0.06361426
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 61 1024. 912.813
+	image	newap
+	aperture	61
+	beam	61
+	center	1024. 3651.252
+	low	-1023. -3.458557
+	high	1024. 3.33667
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.879601
+		5.392735
+		16.22635
+		-0.06703045
+		0.06068224
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 62 1024. 924.927
+	image	newap
+	aperture	62
+	beam	62
+	center	1024. 3699.708
+	low	-1023. -3.548401
+	high	1024. 3.44043
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.948658
+		5.640379
+		16.23175
+		-0.06789669
+		0.05868686
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 63 1024. 937.6487
+	image	newap
+	aperture	63
+	beam	63
+	center	1024. 3750.595
+	low	-1023. -3.544556
+	high	1024. 3.483643
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.514593
+		5.89306
+		16.24365
+		-0.07281544
+		0.05999441
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 64 1024. 949.624
+	image	newap
+	aperture	64
+	beam	64
+	center	1024. 3798.496
+	low	-1023. -3.492981
+	high	1024. 3.316284
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.943097
+		6.155225
+		16.25408
+		-0.0646509
+		0.07548957
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 65 1024. 962.2959
+	image	newap
+	aperture	65
+	beam	65
+	center	1024. 3849.184
+	low	-1023. -3.639526
+	high	1024. 3.433716
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.780985
+		6.424729
+		16.27291
+		-0.06858791
+		0.04678532
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 66 1024. 974.634
+	image	newap
+	aperture	66
+	beam	66
+	center	1024. 3898.536
+	low	-1023. -3.612793
+	high	1024. 3.195618
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.07847
+		6.688142
+		16.26574
+		-0.0623745
+		0.06043644
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 67 1024. 987.6255
+	image	newap
+	aperture	67
+	beam	67
+	center	1024. 3950.502
+	low	-1023. -3.529968
+	high	1024. 3.285156
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.831475
+		6.961588
+		16.28224
+		-0.05857066
+		0.06586687
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 68 1024. 1000.375
+	image	newap
+	aperture	68
+	beam	68
+	center	1024. 4001.500
+	low	-1023. -3.628479
+	high	1024. 3.314209
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.942699
+		7.238123
+		16.30469
+		-0.06371666
+		0.05590742
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 69 1024. 1013.383
+	image	newap
+	aperture	69
+	beam	69
+	center	1024. 4053.532
+	low	-1023. -3.672668
+	high	1024. 3.296021
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.91969
+		7.514667
+		16.31028
+		-0.06085905
+		0.05647445
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 70 1024. 1026.784
+	image	newap
+	aperture	70
+	beam	70
+	center	1024. 4107.136
+	low	-1023. -3.622131
+	high	1024. 3.235474
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.62039
+		7.792794
+		16.33077
+		-0.06406771
+		0.06748478
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 71 1024. 1039.673
+	image	newap
+	aperture	71
+	beam	71
+	center	1024. 4158.692
+	low	-1023. -3.716919
+	high	1024. 3.109497
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.95004
+		8.08465
+		16.33214
+		-0.0521011
+		0.06396589
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 72 1024. 1053.442
+	image	newap
+	aperture	72
+	beam	72
+	center	1024. 4213.768
+	low	-1023. -3.865479
+	high	1024. 3.213989
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.531611
+		8.366562
+		16.33976
+		-0.05748625
+		0.07207462
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 73 1024. 1066.627
+	image	newap
+	aperture	73
+	beam	73
+	center	1024. 4266.508
+	low	-1023. -3.694824
+	high	1024. 3.144531
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.803824
+		8.668601
+		16.36204
+		-0.05545968
+		0.0611034
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 74 1024. 1080.366
+	image	newap
+	aperture	74
+	beam	74
+	center	1024. 4321.464
+	low	-1023. -3.93103
+	high	1024. 3.177734
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.656321
+		8.961875
+		16.36974
+		-0.0463388
+		0.06401297
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 75 1024. 1093.886
+	image	newap
+	aperture	75
+	beam	75
+	center	1024. 4375.544
+	low	-1023. -3.885132
+	high	1024. 2.960937
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.845104
+		9.262371
+		16.39512
+		-0.0655093
+		0.05011793
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 76 1024. 1107.76
+	image	newap
+	aperture	76
+	beam	76
+	center	1024. 4431.040
+	low	-1023. -3.828979
+	high	1024. 3.019531
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.808138
+		9.572296
+		16.39802
+		-0.04663472
+		0.05777404
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 77 1024. 1121.835
+	image	newap
+	aperture	77
+	beam	77
+	center	1024. 4487.340
+	low	-1023. -3.831787
+	high	1024. 3.01416
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.700536
+		9.876701
+		16.41381
+		-0.0454486
+		0.05883255
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 78 1024. 1135.788
+	image	newap
+	aperture	78
+	beam	78
+	center	1024. 4543.152
+	low	-1023. -3.898193
+	high	1024. 2.949463
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.84228
+		10.18718
+		16.43785
+		-0.05468246
+		0.05656113
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 79 1024. 1149.909
+	image	newap
+	aperture	79
+	beam	79
+	center	1024. 4599.636
+	low	-1023. -4.029175
+	high	1024. 2.909546
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.944991
+		10.50476
+		16.44388
+		-0.04638428
+		0.06246293
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 80 1024. 1164.555
+	image	newap
+	aperture	80
+	beam	80
+	center	1024. 4658.220
+	low	-1023. -4.09314
+	high	1024. 3.056274
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.652607
+		10.83317
+		16.44801
+		-0.02513817
+		0.05077517
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 81 1024. 1178.635
+	image	newap
+	aperture	81
+	beam	81
+	center	1024. 4714.540
+	low	-1023. -3.999756
+	high	1024. 2.858032
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.057182
+		11.15495
+		16.46767
+		-0.03617634
+		0.05632576
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 82 1024. 1193.7
+	image	newap
+	aperture	82
+	beam	82
+	center	1024. 4774.800
+	low	-1023. -4.124512
+	high	1024. 3.00354
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.612879
+		11.48121
+		16.48971
+		-0.02892946
+		0.06393973
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 83 1024. 1208.039
+	image	newap
+	aperture	83
+	beam	83
+	center	1024. 4832.156
+	low	-1023. -4.178467
+	high	1024. 2.974854
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.018432
+		11.83329
+		16.49781
+		-0.009557677
+		0.05225348
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 84 1024. 1222.73
+	image	newap
+	aperture	84
+	beam	84
+	center	1024. 4890.920
+	low	-1023. -4.178101
+	high	1024. 2.890747
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.219443
+		12.15219
+		16.51967
+		-0.03267279
+		0.04855819
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 85 1024. 1237.809
+	image	newap
+	aperture	85
+	beam	85
+	center	1024. 4951.236
+	low	-1023. -4.194214
+	high	1024. 2.890991
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.167109
+		12.48854
+		16.52746
+		-0.0145813
+		0.05580919
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 86 1024. 1253.342
+	image	newap
+	aperture	86
+	beam	86
+	center	1024. 5013.368
+	low	-1023. -4.259033
+	high	1024. 2.93396
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.787515
+		12.84951
+		16.53524
+		-3.026170E-4
+		0.04279179
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 87 1024. 1269.057
+	image	newap
+	aperture	87
+	beam	87
+	center	1024. 5076.228
+	low	-1023. -4.222656
+	high	1024. 2.874268
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.38282
+		13.19816
+		16.58516
+		-0.009599191
+		0.07612468
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 88 1024. 1284.123
+	image	newap
+	aperture	88
+	beam	88
+	center	1024. 5136.492
+	low	-1023. -4.217896
+	high	1024. 2.708252
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.743145
+		13.56466
+		16.56974
+		0.002903813
+		0.05438614
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 89 1024. 1299.282
+	image	newap
+	aperture	89
+	beam	89
+	center	1024. 5197.128
+	low	-1023. -4.246582
+	high	1024. 2.842041
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.163097
+		13.91841
+		16.58659
+		0.001420688
+		0.03612491
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 90 1024. 1316.179
+	image	newap
+	aperture	90
+	beam	90
+	center	1024. 5264.716
+	low	-1023. -4.343506
+	high	1024. 2.884399
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.996768
+		14.2896
+		16.62802
+		0.008063957
+		0.06708074
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 91 1024. 1330.423
+	image	newap
+	aperture	91
+	beam	91
+	center	1024. 5321.692
+	low	-1023. -4.325195
+	high	1024. 2.820557
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.616265
+		14.65965
+		16.65869
+		-0.001541129
+		0.06872532
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 92 1024. 1347.31
+	image	newap
+	aperture	92
+	beam	92
+	center	1024. 5389.240
+	low	-1023. -4.352661
+	high	1024. 2.799438
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.737495
+		15.04243
+		16.67917
+		-0.01876261
+		0.06079308
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 93 1024. 1362.757
+	image	newap
+	aperture	93
+	beam	93
+	center	1024. 5451.028
+	low	-1023. -4.40918
+	high	1024. 2.858032
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		6.44489
+		15.43742
+		16.69082
+		0.01361332
+		0.07004009
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 94 1024. 1380.505
+	image	newap
+	aperture	94
+	beam	94
+	center	1024. 5522.020
+	low	-1023. -4.373413
+	high	1024. 2.770996
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.007472
+		15.76835
+		16.73028
+		-0.04890035
+		0.08479661
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 95 1024. 1397.061
+	image	newap
+	aperture	95
+	beam	95
+	center	1024. 5588.244
+	low	-1023. -4.362793
+	high	1024. 2.692749
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.889749
+		16.2246
+		16.71672
+		0.01629742
+		0.06929896
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 96 1024. 1413.239
+	image	newap
+	aperture	96
+	beam	96
+	center	1024. 5652.956
+	low	-1023. -4.364746
+	high	1024. 2.739136
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.311948
+		16.59723
+		16.75255
+		-0.01746669
+		0.08159322
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 97 1024. 1428.055
+	image	newap
+	aperture	97
+	beam	97
+	center	1024. 5712.220
+	low	-1023. -4.474121
+	high	1024. 2.820679
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		7.23877
+		16.98901
+		16.72911
+		-0.01325429
+		0.0412903
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 98 1024. 1447.151
+	image	newap
+	aperture	98
+	beam	98
+	center	1024. 5788.604
+	low	-1023. -4.455811
+	high	1024. 2.838989
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		5.058989
+		17.39176
+		16.78933
+		0.006837186
+		0.06056594
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 99 1024. 1464.629
+	image	newap
+	aperture	99
+	beam	99
+	center	1024. 5858.516
+	low	-1023. -4.479004
+	high	1024. 2.807129
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.643295
+		17.84946
+		16.83221
+		0.06054841
+		0.07183188
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 100 1024. 1483.887
+	image	newap
+	aperture	100
+	beam	100
+	center	1024. 5935.548
+	low	-1023. -4.499512
+	high	1024. 2.779541
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		2.624192
+		18.22414
+		16.94598
+		-0.02433304
+		0.1627677
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 101 1024. 1497.99
+	image	newap
+	aperture	101
+	beam	101
+	center	1024. 5991.960
+	low	-1023. -4.350098
+	high	1024. 2.569336
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1846.
+		5.787211
+		18.55315
+		16.79441
+		0.1094127
+		0.1189694
+           
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 102 1024. 1517.219
+	image	newap
+	aperture	102
+	beam	102
+	center	1024. 6068.876
+	low	-1023. -4.561401
+	high	1024. 2.797974
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		4.185606
+		19.06578
+		16.93468
+		0.02426384
+		0.04039316
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 103 1024. 1535.953
+	image	newap
+	aperture	103
+	beam	103
+	center	1024. 6143.812
+	low	-1023. -4.488281
+	high	1024. 2.83728
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		3.133665
+		19.44934
+		16.91099
+		-0.08501092
+		0.009812622
+             
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 104 1024. 1546.123
+	image	newap
+	aperture	104
+	beam	104
+	center	1024. 6184.492
+	low	-1023. -4.377808
+	high	1024. 2.530151
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1790.
+		9.500667
+		17.42162
+		15.71899
+		-0.04560172
+		0.005178703
+             
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 105 1024. 1562.977
+	image	newap
+	aperture	105
+	beam	105
+	center	1024. 6251.908
+	low	-1023. -4.457031
+	high	1024. 2.773315
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1850.
+		11.99151
+		20.42446
+		17.00915
+		0.04399563
+		0.02061131
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 106 1024. 1581.099
+	image	newap
+	aperture	106
+	beam	106
+	center	1024. 6324.396
+	low	-1023. -4.480225
+	high	1024. 3.104248
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		200.
+		1849.
+		11.96296
+		20.68309
+		16.78739
+		-0.1355059
+		-0.2103794
+            
+# Wed 11:10:33 08-Aug-2012
+begin	aperture newap 107 1024. 1598.657
+	image	newap
+	aperture	107
+	beam	107
+	center	1024. 6394.628
+	low	-1023. -0.8443604
+	high	1024. 1.419312
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		203.
+		1850.
+		12.87032
+		21.30474
+		17.16154
+		-0.02252107
+		0.2071815
+           

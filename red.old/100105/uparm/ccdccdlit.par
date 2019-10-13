@@ -1,0 +1,6 @@
+images,s,a,"*.fits",,,"CCD images to listed"
+ccdtype,s,h,"",,,"CCD image type to be listed"
+names,b,h,no,,,"List image names only?"
+long,b,h,no,,,"Long format listing?"
+ccdproc,pset,h,"",,,"CCD processing parameters"
+mode,s,h,"ql",,,

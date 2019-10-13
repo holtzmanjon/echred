@@ -1,0 +1,53 @@
+#!/bin/csh
+set date = $1
+set host=`hostname | awk -F. '{print $1}'`
+set top = /home/holtz/analysis/echred
+touch $top/log/$date.running
+touch $top/log/$date.$host
+
+'rm' $top/log/$date.$host.log
+'rm' -rf $top/$date
+
+if ( -d /$host/holtz ) then
+  set rundir = /$host/holtz/$date
+else
+  set rundir = $top/red/$date
+endif
+
+mkdir $rundir
+cp $top/[A-z]*.cl $rundir/
+cp $top/badcols* $rundir/
+cp $top/hdcor $rundir/
+cp $top/xvista.inp $rundir/
+cp $top/cr.pro $rundir/
+cp -a $top/uparm $rundir/
+cp -a $top/database $rundir/
+# csh treats leading 0's as an octal number, so make sure we don't have those!
+set numericdate = `echo $date | awk '{printf("%d",$1)}'`
+if ( $numericdate < 120700 ) then
+  sed 's/arcref/ref/' $rundir/database/ecarcref.ec > $rundir/database/ecref.ec
+  sed 's/refap/ref/' $rundir/database/aprefap > $rundir/database/apref
+else
+  sed 's/newarc/ref/' $rundir/database/ecnewarc.ec > $rundir/database/ecref.ec
+  sed 's/echtrace130522/ref/' $rundir/database/apechtrace130522 > $rundir/database/apref
+endif
+cd $rundir/
+'rm' $date.cl
+$top/mkcl $date > $date.cl
+'rm' $date.log
+setenv BATCH
+# need next line so that cosmirays doesn't seg vio on 64-bit version!
+setenv IRAFARCH linux
+# cl -o runs old cl.e needed to allow scripting to work this way
+cl -o < $date.cl >& $date.log
+
+if ( $rundir == /$host/holtz/$date ) then
+  mv $rundir $top/red/$date/
+endif
+
+
+touch $top/log/$date.done
+sleep 10
+'rm' $top/log/$date.running
+'rm' $top/log/$date.$host
+

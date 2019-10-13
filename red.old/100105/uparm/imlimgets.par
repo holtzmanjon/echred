@@ -1,0 +1,4 @@
+image,s,a,"obj24.0001.fits",,,"image name"
+param,s,a,"CDELT1",,,"image parameter to be returned"
+value,s,h,"-12.5667145907839",,,"output value of image parameter"
+mode,s,h,"ql",,,

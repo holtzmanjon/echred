@@ -1,0 +1,4 @@
+inspectrum,s,a,"050427/050427.0021",,,"Spectrum prefix"
+inlinelist,s,a,"tmp_ot.lst",,,"Line list (./inlist/)"
+list,*struct,h,"inlist/tmp_ot.lst",,,
+mode,s,h,"ql",,,

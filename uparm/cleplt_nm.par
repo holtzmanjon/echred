@@ -1,0 +1,5 @@
+innight,s,a,"050427",,,"Night"
+inseqnum,s,a,"0034",,,"Sequence number"
+inlinelist,s,a,"fe_ii.lst.old",,,"Line list (./inlist/)"
+list,*struct,h,"/home/priam/pllim0/hipparcos/echelle/echred/inlist/fe_ii.lst.old",,,
+mode,s,h,"ql",,,

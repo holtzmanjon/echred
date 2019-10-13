@@ -1,0 +1,65 @@
+#!/bin/tcsh -f
+set top = /home/holtz/analysis/echred
+
+set host=`hostname | awk -F. '{print $1}'`
+switch ($host)
+case antares:
+case astrodisk:
+case comet:
+case martian:
+case pollack:
+  set maxobj = 1000
+  set maxrun = 1
+  breaksw
+case apo-backup:
+case bellatrix:
+case callisto:
+case denebola:
+case orpheus:
+case pleiades:
+  set maxobj = 1000
+  set maxrun = 2
+case seismo:
+  set maxobj = 1000
+  set maxrun = 12
+  breaksw
+case milkyway:
+  set maxobj = 1000
+  set maxrun = 48
+  breaksw
+case euredica:
+  set maxobj = 1000
+  set maxrun = 4
+  breaksw
+default:
+  set maxrun = 1
+  set maxobj = 1000
+endsw
+
+echo maxrun: $maxrun
+
+touch $top/log/SN.$host
+
+set nobj=0
+
+foreach ssn ($*)
+ set date = `basename $ssn`
+ if ( ! -e $top/log/$date.done) then
+  while ( ! -e $top/log/$date.running ) 
+   set nrun = `'ls' $top/log/*.$host | wc | awk '{print $1}'`
+   @ nrun = $nrun - 1
+  echo nrun: $nrun  maxrun: $maxrun
+   if ( $nrun < $maxrun && $nobj < $maxobj) then
+     echo running $date
+     $top/echred $date >& $top/log/$date.$host.log &
+
+     @ nobj = $nobj + 1
+     sleep 10
+   else
+     echo waiting
+     sleep 10
+   endif
+  end
+ endif
+end
+

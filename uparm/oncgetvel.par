@@ -1,0 +1,4 @@
+inputlist,s,a,"rv.lis",,,"Input list"
+list,*s,h,"rv.lis",,,
+list2,*struct,h,"./hip16641.xcsao.log",,,
+mode,s,h,"ql",,,

@@ -1,0 +1,4 @@
+inspectrum,s,a,"arcturus",,,"Spectrum prefix"
+inlinelist,s,a,"tmp_ot.lst",,,"Line list (./inlist/)"
+list,*struct,h,"inlist/tmp_ot.lst",,,
+mode,s,h,"ql",,,

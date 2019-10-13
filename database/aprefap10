@@ -1,0 +1,3317 @@
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 1 1024. 1272.564
+	image	refap10
+	aperture	1
+	beam	1
+	center	1024. 1262.564
+	low	-1023. -12.96478
+	high	1024. 14.88987
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		38.68831
+		-8.55452
+		62.22168
+		-0.1658561
+		0.1065136
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 2 1024. 1314.564
+	image	refap10
+	aperture	2
+	beam	2
+	center	1024. 1304.564
+	low	-1023. -12.69534
+	high	1024. 14.19602
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.40846
+		-8.523423
+		62.20049
+		-0.1409908
+		0.1813616
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 3 1024. 1353.829
+	image	refap10
+	aperture	3
+	beam	3
+	center	1024. 1343.829
+	low	-1023. -12.6394
+	high	1024. 13.83828
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.10576
+		-8.447503
+		62.23325
+		-0.1307869
+		0.1833912
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 4 1024. 1390.609
+	image	refap10
+	aperture	4
+	beam	4
+	center	1024. 1380.609
+	low	-1023. -11.91627
+	high	1024. 14.29965
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		37.66631
+		-8.332314
+		62.24271
+		-0.1716486
+		0.2038384
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 5 1024. 1429.082
+	image	refap10
+	aperture	5
+	beam	5
+	center	1024. 1419.082
+	low	-1023. -12.63517
+	high	1024. 13.62663
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		37.29339
+		-8.250961
+		62.271
+		-0.1725153
+		0.2071363
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 6 1024. 1466.659
+	image	refap10
+	aperture	6
+	beam	6
+	center	1024. 1456.659
+	low	-1023. -11.81749
+	high	1024. 14.05869
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		37.42068
+		-8.169865
+		62.23261
+		-0.170211
+		0.2565335
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 7 1024. 1504.308
+	image	refap10
+	aperture	7
+	beam	7
+	center	1024. 1494.308
+	low	-1023. -12.36377
+	high	1024. 13.9523
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.97692
+		-8.069861
+		62.28908
+		-0.1484142
+		0.2245542
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 8 1024. 1541.212
+	image	refap10
+	aperture	8
+	beam	8
+	center	1024. 1531.212
+	low	-1023. -12.56372
+	high	1024. 13.60703
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		37.07006
+		-7.943175
+		62.31932
+		-0.1530028
+		0.1843311
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 9 1024. 1578.464
+	image	refap10
+	aperture	9
+	beam	9
+	center	1024. 1568.464
+	low	-1023. -12.16611
+	high	1024. 13.76024
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.57571
+		-7.76049
+		62.39486
+		-0.1688131
+		0.1870649
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 10 1024. 1615.063
+	image	refap10
+	aperture	10
+	beam	10
+	center	1024. 1605.063
+	low	-1023. -11.50269
+	high	1024. 13.89927
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.48259
+		-7.548126
+		62.43188
+		-0.1755248
+		0.1825335
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 11 1024. 1652.766
+	image	refap10
+	aperture	11
+	beam	11
+	center	1024. 1642.766
+	low	-1023. -11.64063
+	high	1024. 14.07617
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.11272
+		-7.302463
+		62.41343
+		-0.1609999
+		0.210932
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 12 1024. 1689.329
+	image	refap10
+	aperture	12
+	beam	12
+	center	1024. 1679.329
+	low	-1023. -11.74319
+	high	1024. 14.04398
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.67778
+		-7.069525
+		62.43714
+		-0.1234064
+		0.2089586
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 13 1024. 1725.54
+	image	refap10
+	aperture	13
+	beam	13
+	center	1024. 1715.540
+	low	-1023. -11.71548
+	high	1024. 14.03784
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.53758
+		-6.780763
+		62.47285
+		-0.164863
+		0.176597
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 14 1024. 1760.542
+	image	refap10
+	aperture	14
+	beam	14
+	center	1024. 1750.542
+	low	-1023. -11.6828
+	high	1024. 13.99029
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.49362
+		-6.493055
+		62.52684
+		-0.1701691
+		0.1859939
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 15 1024. 1795.748
+	image	refap10
+	aperture	15
+	beam	15
+	center	1024. 1785.748
+	low	-1023. -11.64909
+	high	1024. 13.96792
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.22911
+		-6.189841
+		62.53721
+		-0.1848832
+		0.1368882
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 16 1024. 1831.257
+	image	refap10
+	aperture	16
+	beam	16
+	center	1024. 1821.257
+	low	-1023. -11.60937
+	high	1024. 13.99372
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.61322
+		-5.863532
+		62.542
+		-0.1786711
+		0.1768763
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 17 1024. 1866.847
+	image	refap10
+	aperture	17
+	beam	17
+	center	1024. 1856.847
+	low	-1023. -11.57976
+	high	1024. 13.80467
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.9216
+		-5.530074
+		62.58702
+		-0.1901266
+		0.1843756
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 18 1024. 1903.016
+	image	refap10
+	aperture	18
+	beam	18
+	center	1024. 1893.016
+	low	-1023. -11.89466
+	high	1024. 13.80806
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.73794
+		-5.177105
+		62.61772
+		-0.1847788
+		0.1713509
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 19 1024. 1939.61
+	image	refap10
+	aperture	19
+	beam	19
+	center	1024. 1929.610
+	low	-1023. -12.05177
+	high	1024. 13.794
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.13404
+		-4.787646
+		62.67194
+		-0.1990488
+		0.141264
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 20 1024. 1975.371
+	image	refap10
+	aperture	20
+	beam	20
+	center	1024. 1965.371
+	low	-1023. -12.09159
+	high	1024. 13.87185
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.43023
+		-4.410557
+		62.67134
+		-0.1967048
+		0.1614598
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 21 1024. 2011.254
+	image	refap10
+	aperture	21
+	beam	21
+	center	1024. 2001.254
+	low	-1023. -11.88406
+	high	1024. 13.94725
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.67679
+		-4.001254
+		62.69918
+		-0.1914103
+		0.1520203
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 22 1024. 2048.004
+	image	refap10
+	aperture	22
+	beam	22
+	center	1024. 2038.004
+	low	-1023. -11.82342
+	high	1024. 13.981
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.18193
+		-3.556449
+		62.72477
+		-0.2072755
+		0.1527236
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 23 1024. 2084.124
+	image	refap10
+	aperture	23
+	beam	23
+	center	1024. 2074.124
+	low	-1023. -12.03109
+	high	1024. 14.0017
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.39513
+		-3.129513
+		62.78382
+		-0.2059345
+		0.169903
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 24 1024. 2120.703
+	image	refap10
+	aperture	24
+	beam	24
+	center	1024. 2110.703
+	low	-1023. -12.35756
+	high	1024. 14.0427
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.3548
+		-2.663909
+		62.83443
+		-0.210492
+		0.1246114
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 25 1024. 2157.227
+	image	refap10
+	aperture	25
+	beam	25
+	center	1024. 2147.227
+	low	-1023. -12.71138
+	high	1024. 13.91438
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.46726
+		-2.193898
+		62.83321
+		-0.2120358
+		0.1422996
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 26 1024. 2194.143
+	image	refap10
+	aperture	26
+	beam	26
+	center	1024. 2184.143
+	low	-1023. -13.09654
+	high	1024. 13.54061
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.3983
+		-1.691553
+		62.86074
+		-0.2232448
+		0.1326697
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 27 1024. 2231.367
+	image	refap10
+	aperture	27
+	beam	27
+	center	1024. 2221.367
+	low	-1023. -13.03399
+	high	1024. 13.65786
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.1589
+		-1.189409
+		62.8689
+		-0.2287496
+		0.1203031
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 28 1024. 2268.673
+	image	refap10
+	aperture	28
+	beam	28
+	center	1024. 2258.673
+	low	-1023. -12.18542
+	high	1024. 14.07784
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.05349
+		-0.6501046
+		62.9566
+		-0.2261892
+		0.1436973
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 29 1024. 2305.707
+	image	refap10
+	aperture	29
+	beam	29
+	center	1024. 2295.707
+	low	-1023. -12.99971
+	high	1024. 13.77455
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.44515
+		-0.1106696
+		62.98908
+		-0.2323481
+		0.09550618
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 30 1024. 2343.876
+	image	refap10
+	aperture	30
+	beam	30
+	center	1024. 2333.876
+	low	-1023. -13.09117
+	high	1024. 13.91399
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.93479
+		0.4490132
+		62.99597
+		-0.237154
+		0.1126958
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 31 1024. 2381.524
+	image	refap10
+	aperture	31
+	beam	31
+	center	1024. 2371.524
+	low	-1023. -12.80124
+	high	1024. 13.99239
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		36.11758
+		1.021555
+		63.01953
+		-0.2381803
+		0.1036945
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 32 1024. 2419.796
+	image	refap10
+	aperture	32
+	beam	32
+	center	1024. 2409.796
+	low	-1023. -13.30199
+	high	1024. 13.80457
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.96459
+		1.607502
+		63.06273
+		-0.2352862
+		0.1304659
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 33 1024. 2458.542
+	image	refap10
+	aperture	33
+	beam	33
+	center	1024. 2448.542
+	low	-1023. -13.05467
+	high	1024. 13.79762
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.57879
+		2.201187
+		63.12334
+		-0.2395719
+		0.0866525
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 34 1024. 2497.035
+	image	refap10
+	aperture	34
+	beam	34
+	center	1024. 2487.035
+	low	-1023. -12.77061
+	high	1024. 14.11292
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.7252
+		2.804626
+		63.12049
+		-0.2528778
+		0.08459438
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 35 1024. 2535.774
+	image	refap10
+	aperture	35
+	beam	35
+	center	1024. 2525.774
+	low	-1023. -13.54093
+	high	1024. 13.69775
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.85273
+		3.414267
+		63.14309
+		-0.2671886
+		0.07086629
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 36 1024. 2575.005
+	image	refap10
+	aperture	36
+	beam	36
+	center	1024. 2565.005
+	low	-1023. -13.43921
+	high	1024. 13.49633
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.77683
+		4.04615
+		63.17904
+		-0.2593774
+		0.09991316
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 37 1024. 2614.655
+	image	refap10
+	aperture	37
+	beam	37
+	center	1024. 2604.655
+	low	-1023. -13.18299
+	high	1024. 13.8606
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.5567
+		4.691668
+		63.23373
+		-0.2603997
+		0.0754328
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 38 1024. 2654.365
+	image	refap10
+	aperture	38
+	beam	38
+	center	1024. 2644.365
+	low	-1023. -13.07201
+	high	1024. 13.93337
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.60007
+		5.336363
+		63.25314
+		-0.2798712
+		0.04399927
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 39 1024. 2694.656
+	image	refap10
+	aperture	39
+	beam	39
+	center	1024. 2684.656
+	low	-1023. -13.12311
+	high	1024. 13.89916
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.37243
+		6.008702
+		63.26743
+		-0.278809
+		0.05715197
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 40 1024. 2735.204
+	image	refap10
+	aperture	40
+	beam	40
+	center	1024. 2725.204
+	low	-1023. -13.36538
+	high	1024. 13.71356
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.20982
+		6.686135
+		63.29185
+		-0.2880979
+		0.05323242
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 41 1024. 2776.009
+	image	refap10
+	aperture	41
+	beam	41
+	center	1024. 2766.009
+	low	-1023. -13.64374
+	high	1024. 13.41337
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		35.07313
+		7.38551
+		63.3537
+		-0.2895749
+		0.0659418
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 42 1024. 2817.813
+	image	refap10
+	aperture	42
+	beam	42
+	center	1024. 2807.813
+	low	-1023. -13.92471
+	high	1024. 13.95164
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.31084
+		8.091025
+		63.39694
+		-0.3047935
+		0.03186079
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 43 1024. 2859.184
+	image	refap10
+	aperture	43
+	beam	43
+	center	1024. 2849.184
+	low	-1023. -13.36011
+	high	1024. 14.04099
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.29613
+		8.809888
+		63.3986
+		-0.2963446
+		0.04140972
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 44 1024. 2900.322
+	image	refap10
+	aperture	44
+	beam	44
+	center	1024. 2890.322
+	low	-1023. -13.78999
+	high	1024. 13.39347
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.82577
+		9.535487
+		63.42257
+		-0.312142
+		0.03605632
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 45 1024. 2942.944
+	image	refap10
+	aperture	45
+	beam	45
+	center	1024. 2932.944
+	low	-1023. -13.70605
+	high	1024. 14.12215
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.22246
+		10.29068
+		63.48534
+		-0.3055177
+		0.05743463
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 46 1024. 2984.554
+	image	refap10
+	aperture	46
+	beam	46
+	center	1024. 2974.554
+	low	-1023. -13.91905
+	high	1024. 13.17573
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		34.99947
+		11.05485
+		63.52253
+		-0.3254287
+		0.008348901
+             
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 47 1024. 3028.343
+	image	refap10
+	aperture	47
+	beam	47
+	center	1024. 3018.343
+	low	-1023. -13.42757
+	high	1024. 13.76357
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		33.9912
+		11.82855
+		63.52068
+		-0.3309561
+		0.02035947
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 48 1024. 3072.064
+	image	refap10
+	aperture	48
+	beam	48
+	center	1024. 3062.064
+	low	-1023. -13.76255
+	high	1024. 14.04807
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		33.37667
+		12.61055
+		63.53827
+		-0.3426604
+		0.02147365
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 49 1024. 3115.482
+	image	refap10
+	aperture	49
+	beam	49
+	center	1024. 3105.482
+	low	-1023. -14.14851
+	high	1024. 14.00863
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		33.43316
+		13.43892
+		63.6151
+		-0.323357
+		0.04600515
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 50 1024. 3159.681
+	image	refap10
+	aperture	50
+	beam	50
+	center	1024. 3149.681
+	low	-1023. -14.23213
+	high	1024. 13.93818
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		33.1214
+		14.24702
+		63.64023
+		-0.3400922
+		-5.814843E-4
+              
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 51 1024. 3204.416
+	image	refap10
+	aperture	51
+	beam	51
+	center	1024. 3194.416
+	low	-1023. -14.28387
+	high	1024. 13.96978
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		32.64637
+		15.07686
+		63.6558
+		-0.349664
+		0.03044162
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 52 1024. 3249.171
+	image	refap10
+	aperture	52
+	beam	52
+	center	1024. 3239.171
+	low	-1023. -14.15991
+	high	1024. 13.96558
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		32.50748
+		15.92272
+		63.67382
+		-0.3453987
+		0.01908236
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 53 1024. 3293.848
+	image	refap10
+	aperture	53
+	beam	53
+	center	1024. 3283.848
+	low	-1023. -13.73079
+	high	1024. 13.58516
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		32.86976
+		16.78966
+		63.72947
+		-0.344808
+		0.03976509
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 54 1024. 3339.833
+	image	refap10
+	aperture	54
+	beam	54
+	center	1024. 3329.833
+	low	-1023. -14.37961
+	high	1024. 13.44658
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		32.32615
+		17.6633
+		63.77838
+		-0.3492284
+		0.01920868
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 55 1024. 3385.656
+	image	refap10
+	aperture	55
+	beam	55
+	center	1024. 3375.656
+	low	-1023. -14.245
+	high	1024. 13.8452
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		32.33898
+		18.54326
+		63.77925
+		-0.353011
+		0.02410572
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 56 1024. 3432.389
+	image	refap10
+	aperture	56
+	beam	56
+	center	1024. 3422.389
+	low	-1023. -14.46336
+	high	1024. 13.27208
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		31.88417
+		19.44629
+		63.81265
+		-0.342679
+		0.05073188
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 57 1024. 3479.996
+	image	refap10
+	aperture	57
+	beam	57
+	center	1024. 3469.996
+	low	-1023. -13.89639
+	high	1024. 13.46422
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		30.92055
+		20.35024
+		63.88231
+		-0.3788044
+		0.04444714
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 58 1024. 3527.027
+	image	refap10
+	aperture	58
+	beam	58
+	center	1024. 3517.027
+	low	-1023. -14.48144
+	high	1024. 13.81445
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		30.96705
+		21.28841
+		63.89044
+		-0.3569086
+		0.05277455
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 59 1024. 3574.089
+	image	refap10
+	aperture	59
+	beam	59
+	center	1024. 3564.089
+	low	-1023. -14.70397
+	high	1024. 13.80488
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		31.40719
+		22.22337
+		63.91144
+		-0.3772829
+		0.04861424
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 60 1024. 3622.406
+	image	refap10
+	aperture	60
+	beam	60
+	center	1024. 3612.406
+	low	-1023. -14.70296
+	high	1024. 13.86187
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		31.01593
+		23.20208
+		63.96621
+		-0.3340708
+		0.06975348
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 61 1024. 3671.287
+	image	refap10
+	aperture	61
+	beam	61
+	center	1024. 3661.287
+	low	-1023. -14.78224
+	high	1024. 13.76027
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		30.51982
+		24.16507
+		64.00772
+		-0.3884752
+		0.04079088
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 62 1024. 3720.315
+	image	refap10
+	aperture	62
+	beam	62
+	center	1024. 3710.315
+	low	-1023. -14.35225
+	high	1024. 13.52772
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		30.31074
+		25.13678
+		64.00237
+		-0.3913262
+		0.05480245
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 63 1024. 3769.425
+	image	refap10
+	aperture	63
+	beam	63
+	center	1024. 3759.425
+	low	-1023. -14.53739
+	high	1024. 12.91576
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		30.44912
+		26.16937
+		64.04581
+		-0.3416534
+		0.07688647
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 64 1024. 3819.782
+	image	refap10
+	aperture	64
+	beam	64
+	center	1024. 3809.782
+	low	-1023. -15.03913
+	high	1024. 13.6526
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		29.77723
+		27.1625
+		64.10019
+		-0.3780205
+		0.07815228
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 65 1024. 3870.013
+	image	refap10
+	aperture	65
+	beam	65
+	center	1024. 3860.013
+	low	-1023. -14.45548
+	high	1024. 12.99724
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		29.72763
+		28.18561
+		64.12385
+		-0.3801895
+		0.08824522
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 66 1024. 3921.542
+	image	refap10
+	aperture	66
+	beam	66
+	center	1024. 3911.542
+	low	-1023. -15.00723
+	high	1024. 13.65442
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		28.77619
+		29.23699
+		64.16267
+		-0.3615046
+		0.1077768
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 67 1024. 3971.876
+	image	refap10
+	aperture	67
+	beam	67
+	center	1024. 3961.876
+	low	-1023. -15.09177
+	high	1024. 13.49223
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		29.51432
+		30.30168
+		64.20506
+		-0.3704896
+		0.101816
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 68 1024. 4023.094
+	image	refap10
+	aperture	68
+	beam	68
+	center	1024. 4013.094
+	low	-1023. -14.94849
+	high	1024. 13.02767
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		29.82837
+		31.37489
+		64.24168
+		-0.3826047
+		0.06980628
+            
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 69 1024. 4076.242
+	image	refap10
+	aperture	69
+	beam	69
+	center	1024. 4066.242
+	low	-1023. -14.99387
+	high	1024. 12.93206
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		28.71025
+		32.46029
+		64.26128
+		-0.3838709
+		0.1199876
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 70 1024. 4128.958
+	image	refap10
+	aperture	70
+	beam	70
+	center	1024. 4118.958
+	low	-1023. -15.21048
+	high	1024. 13.36935
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		28.47925
+		33.57471
+		64.30274
+		-0.3489892
+		0.1267173
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 71 1024. 4182.57
+	image	refap10
+	aperture	71
+	beam	71
+	center	1024. 4172.570
+	low	-1023. -15.42214
+	high	1024. 13.46758
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		27.86322
+		34.68521
+		64.39137
+		-0.3986307
+		0.1401216
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 72 1024. 4236.843
+	image	refap10
+	aperture	72
+	beam	72
+	center	1024. 4226.843
+	low	-1023. -14.63839
+	high	1024. 12.90266
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		27.00152
+		35.81495
+		64.37549
+		-0.363662
+		0.1271062
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 73 1024. 4290.629
+	image	refap10
+	aperture	73
+	beam	73
+	center	1024. 4280.629
+	low	-1023. -15.43383
+	high	1024. 13.27378
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		27.17022
+		36.97725
+		64.43102
+		-0.3308947
+		0.1527088
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 74 1024. 4345.096
+	image	refap10
+	aperture	74
+	beam	74
+	center	1024. 4335.096
+	low	-1023. -14.82513
+	high	1024. 12.71445
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		27.10897
+		38.12106
+		64.48085
+		-0.3727981
+		0.1387896
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 75 1024. 4400.929
+	image	refap10
+	aperture	75
+	beam	75
+	center	1024. 4390.929
+	low	-1023. -15.52898
+	high	1024. 13.13664
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		26.27172
+		39.3108
+		64.51604
+		-0.3454835
+		0.1508044
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 76 1024. 4457.025
+	image	refap10
+	aperture	76
+	beam	76
+	center	1024. 4447.025
+	low	-1023. -15.69334
+	high	1024. 13.29468
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		25.54035
+		40.50942
+		64.53838
+		-0.3133145
+		0.1632787
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 77 1024. 4516.172
+	image	refap10
+	aperture	77
+	beam	77
+	center	1024. 4506.172
+	low	-1023. -15.6507
+	high	1024. 13.19232
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		22.33259
+		41.71077
+		64.63206
+		-0.3651094
+		0.1808978
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 78 1024. 4570.445
+	image	refap10
+	aperture	78
+	beam	78
+	center	1024. 4560.445
+	low	-1023. -15.73191
+	high	1024. 13.20112
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.50777
+		42.92865
+		64.62865
+		-0.3079599
+		0.1326518
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 79 1024. 4626.042
+	image	refap10
+	aperture	79
+	beam	79
+	center	1024. 4616.042
+	low	-1023. -15.24652
+	high	1024. 12.80108
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		25.88165
+		44.15817
+		64.72114
+		-0.3054782
+		0.2050022
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 80 1024. 4684.965
+	image	refap10
+	aperture	80
+	beam	80
+	center	1024. 4674.965
+	low	-1023. -15.43229
+	high	1024. 12.01517
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.40096
+		45.43054
+		64.75394
+		-0.3073924
+		0.1564033
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 81 1024. 4743.
+	image	refap10
+	aperture	81
+	beam	81
+	center	1024. 4733.000
+	low	-1023. -15.7563
+	high	1024. 13.02346
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.37329
+		46.67107
+		64.78189
+		-0.3138373
+		0.1743969
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 82 1024. 4802.447
+	image	refap10
+	aperture	82
+	beam	82
+	center	1024. 4792.447
+	low	-1023. -15.65492
+	high	1024. 12.57872
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		23.45506
+		47.98732
+		64.85548
+		-0.2700123
+		0.2086859
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 83 1024. 4859.798
+	image	refap10
+	aperture	83
+	beam	83
+	center	1024. 4849.798
+	low	-1023. -15.24795
+	high	1024. 12.18751
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		25.16835
+		49.31734
+		64.91332
+		-0.295942
+		0.1607109
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 84 1024. 4920.216
+	image	refap10
+	aperture	84
+	beam	84
+	center	1024. 4910.216
+	low	-1023. -15.10302
+	high	1024. 12.41322
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.37249
+		50.64036
+		64.96112
+		-0.2758045
+		0.1742078
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 85 1024. 4980.123
+	image	refap10
+	aperture	85
+	beam	85
+	center	1024. 4970.123
+	low	-1023. -15.21601
+	high	1024. 12.31546
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.61719
+		51.98864
+		64.9727
+		-0.2335317
+		0.1615568
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 86 1024. 5041.137
+	image	refap10
+	aperture	86
+	beam	86
+	center	1024. 5031.137
+	low	-1023. -15.49408
+	high	1024. 11.90191
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.26208
+		53.32508
+		65.10347
+		-0.2892787
+		0.1999541
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 87 1024. 5102.727
+	image	refap10
+	aperture	87
+	beam	87
+	center	1024. 5092.727
+	low	-1023. -15.92095
+	high	1024. 12.78804
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		23.92787
+		54.73249
+		65.09221
+		-0.2050705
+		0.1468022
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 88 1024. 5168.255
+	image	refap10
+	aperture	88
+	beam	88
+	center	1024. 5158.255
+	low	-1023. -15.38321
+	high	1024. 12.44236
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		20.18874
+		56.165
+		65.18125
+		-0.1876687
+		0.1814919
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 89 1024. 5226.078
+	image	refap10
+	aperture	89
+	beam	89
+	center	1024. 5216.078
+	low	-1023. -16.01776
+	high	1024. 12.59011
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		24.70045
+		57.5324
+		65.24551
+		-0.3106764
+		0.164159
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 90 1024. 5295.642
+	image	refap10
+	aperture	90
+	beam	90
+	center	1024. 5285.642
+	low	-1023. -15.71163
+	high	1024. 11.73481
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		18.07964
+		59.00468
+		65.31538
+		-0.1810338
+		0.2238775
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 91 1024. 5355.546
+	image	refap10
+	aperture	91
+	beam	91
+	center	1024. 5345.546
+	low	-1023. -15.4071
+	high	1024. 12.02001
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		21.68063
+		60.50301
+		65.37096
+		-0.1796557
+		0.172201
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 92 1024. 5420.697
+	image	refap10
+	aperture	92
+	beam	92
+	center	1024. 5410.697
+	low	-1023. -15.43545
+	high	1024. 12.00049
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		20.55701
+		61.98513
+		65.40174
+		-0.2423294
+		0.158509
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 93 1024. 5487.412
+	image	refap10
+	aperture	93
+	beam	93
+	center	1024. 5477.412
+	low	-1023. -15.70711
+	high	1024. 11.57475
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		18.57254
+		63.51622
+		65.54882
+		-0.1683946
+		0.2129602
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 94 1024. 5550.394
+	image	refap10
+	aperture	94
+	beam	94
+	center	1024. 5540.394
+	low	-1023. -16.26465
+	high	1024. 12.27888
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		20.74008
+		65.00534
+		65.62415
+		-0.27894
+		0.267948
+          
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 95 1024. 5618.327
+	image	refap10
+	aperture	95
+	beam	95
+	center	1024. 5608.327
+	low	-1023. -16.22702
+	high	1024. 12.2949
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		18.6438
+		66.54672
+		65.67653
+		-0.2974497
+		0.2093851
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 96 1024. 5681.398
+	image	refap10
+	aperture	96
+	beam	96
+	center	1024. 5671.398
+	low	-1023. -16.55374
+	high	1024. 12.33413
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		21.89945
+		68.15965
+		65.62402
+		-0.2660761
+		0.1918261
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 97 1024. 5755.686
+	image	refap10
+	aperture	97
+	beam	97
+	center	1024. 5745.686
+	low	-1023. -15.97945
+	high	1024. 11.3926
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		14.79544
+		69.70776
+		65.76348
+		-0.2810867
+		0.1610479
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 98 1024. 5820.073
+	image	refap10
+	aperture	98
+	beam	98
+	center	1024. 5810.073
+	low	-1023. -15.95077
+	high	1024. 11.61255
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		17.93309
+		71.30376
+		65.86288
+		-0.1901333
+		0.1894512
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 99 1024. 5887.675
+	image	refap10
+	aperture	99
+	beam	99
+	center	1024. 5877.675
+	low	-1023. -15.8751
+	high	1024. 11.49419
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1649.
+		18.74136
+		73.18845
+		66.13102
+		-0.4329997
+		0.2412246
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 100 1024. 5955.106
+	image	refap10
+	aperture	100
+	beam	100
+	center	1024. 5945.106
+	low	-1023. -16.1486
+	high	1024. 11.71071
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		20.08694
+		74.41773
+		66.15481
+		-0.4062772
+		0.3217455
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 101 1024. 6029.283
+	image	refap10
+	aperture	101
+	beam	101
+	center	1024. 6019.283
+	low	-1023. -16.35847
+	high	1024. 16.85513
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1649.
+		15.80412
+		76.58685
+		66.44877
+		-0.1982072
+		0.3382096
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 102 1024. 6096.638
+	image	refap10
+	aperture	102
+	beam	102
+	center	1024. 6086.638
+	low	-1023. -16.14735
+	high	1024. 11.12868
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		18.15684
+		77.77866
+		66.39197
+		-0.4491004
+		0.37156
+         
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 103 1024. 6172.913
+	image	refap10
+	aperture	103
+	beam	103
+	center	1024. 6162.913
+	low	-1023. -16.97954
+	high	1024. 12.01424
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		12.57377
+		79.58059
+		66.43384
+		-0.3669172
+		0.3414856
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 104 1024. 6243.931
+	image	refap10
+	aperture	104
+	beam	104
+	center	1024. 6233.931
+	low	-1023. -16.61838
+	high	1024. 12.25303
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1647.
+		12.89988
+		81.24959
+		66.57011
+		-0.5279964
+		0.3471881
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 105 1024. 6319.038
+	image	refap10
+	aperture	105
+	beam	105
+	center	1024. 6309.038
+	low	-1023. -16.69598
+	high	1024. 12.1693
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1645.
+		9.687898
+		82.91037
+		66.14825
+		-0.289093
+		0.1671806
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 106 1024. 6389.129
+	image	refap10
+	aperture	106
+	beam	106
+	center	1024. 6379.129
+	low	-1023. -16.10294
+	high	1024. 11.86754
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1649.
+		12.66928
+		84.96165
+		67.15646
+		-0.8924276
+		0.6282503
+           
+# Tue 19:56:17 22-May-2007
+begin	aperture refap10 107 1024. 6458.148
+	image	refap10
+	aperture	107
+	beam	107
+	center	1024. 6448.148
+	low	-1023. -16.37595
+	high	1024. 11.06458
+	background
+		xmin -20.
+		xmax 20.
+		function chebyshev
+		order 1
+		sample -20:-15,15:20
+		naverage 1
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	9
+		2.
+		5.
+		3.
+		1649.
+		16.92404
+		86.94042
+		66.53403
+		-0.7084327
+		0.01219277
+            

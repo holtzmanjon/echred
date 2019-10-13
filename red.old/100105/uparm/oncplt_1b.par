@@ -1,0 +1,3 @@
+inspectrum,s,a,"solarflux",,,"Spectrum name"
+lambda,r,a,5307.361,,,"Wavelength"
+mode,s,h,"ql",,,

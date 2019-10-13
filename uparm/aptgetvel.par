@@ -1,0 +1,4 @@
+inputlist,s,a,,,,"Input list"
+list,*s,h,"all.list",,,
+list2,*struct,h,"./extracted/060416/060416.0043.xcsao.log",,,
+mode,s,h,"ql",,,

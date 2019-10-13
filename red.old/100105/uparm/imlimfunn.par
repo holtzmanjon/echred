@@ -1,0 +1,5 @@
+input,s,a,"sig2SHM144.ec.fits",,,"Input images"
+output,s,a,"SHM144.sig.ec.fits",,,"Output images"
+function,s,a,"sqrt",log10|alog10|ln|aln|sqrt|square|cbrt|cube|abs|neg|cos|sin|tan|acos|asin|atan|hcos|hsin|htan|reciprocal,,"Function"
+verbose,b,h,yes,,,"Verbose mode?"
+mode,s,h,"ql",,,

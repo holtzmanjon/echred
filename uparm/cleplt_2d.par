@@ -1,0 +1,4 @@
+inspectrum,s,a,"051121/051121.0036",,,"Spectrum prefix"
+inlinelist,s,a,"clean_fe.lst",,,"Line list (./inlist/)"
+list,*struct,h,"inlist/clean_fe.lst",,,
+mode,s,h,"ql",,,

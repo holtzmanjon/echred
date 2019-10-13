@@ -1,0 +1,18 @@
+#!/bin/csh 
+foreach log ($*)
+  #echo log: $log
+  set n1=`awk '/REIDEN/ {print NR}' $log`
+  #echo n1: $n1
+  @ n2 = $n1 + 50
+  'rm' sed.inp
+  echo $n1,"$n2"p >sed.inp
+  set n2=`sed -n -f sed.inp $log | awk '/cr>/ {print NR}' | head -1`
+  #echo n2: $n2
+
+  @ n3 = $n1 + $n2 - 2
+  #echo n3: $n3
+  'rm' sed.inp
+  echo $n1,"$n3"p >sed.inp
+  sed -n -f sed.inp $log
+
+end

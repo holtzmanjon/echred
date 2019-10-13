@@ -1,0 +1,9 @@
+text,f,a,"badcols",,,"Text file description of mask regions"
+mask,f,a,"echmask",,,"Mask image name"
+ncols,i,a,2128,1,,"Number of columns in mask"
+nlines,i,a,2068,1,,"Number of lines in mask"
+linterp,i,h,1,1,,"Mask code for rectangles narrower along lines"
+cinterp,i,h,2,1,,"Mask code for rectangles narrower along columns"
+square,i,h,3,1,,"Mask code for squares"
+pixel,i,h,4,1,,"Mask code for single pixels"
+mode,s,h,"ql",,,

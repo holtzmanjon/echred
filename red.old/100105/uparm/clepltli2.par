@@ -1,0 +1,4 @@
+inspectrum,s,a,"arct_ech",,,"Input spectrum (exclude path and ext)"
+inlinelist,s,a,"fe_ii.diff",,,"Line list (./inlist/)"
+list,*struct,h,"/home/priam/pllim0/hipparcos/echelle/echred/inlist/fe_ii.diff",,,
+mode,s,h,"ql",,,

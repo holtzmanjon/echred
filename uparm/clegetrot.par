@@ -1,0 +1,3 @@
+inputlist,s,a,"objall.lst",,,"List of images (./inlist/)"
+list,*s,h,"/home/priam/pllim0/hipparcos/echelle/echred/inlist/objall.lst",,,
+mode,s,h,"ql",,,

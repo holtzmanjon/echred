@@ -1,0 +1,4 @@
+input,s,a,"logfile",,,"input file or file template"
+output,s,a,"../extracted/060416",,,"output file or destination directory"
+verbose,b,h,no,,,"print names of files as they are copied"
+mode,s,h,"ql",,,

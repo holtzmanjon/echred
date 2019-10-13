@@ -1,0 +1,3 @@
+input,s,a,"test.lst",,,"File list: inlist/"
+list,*s,h,"obj.list",,,
+mode,s,h,"ql",,,

@@ -1,0 +1,3 @@
+inputlist,s,a,,,,"Input list"
+list,*s,h,"all.list",,,
+mode,s,h,"ql",,,

@@ -1,0 +1,135 @@
+#!/bin/csh 
+# Give date (yymmdd) as argument
+set date = $1
+echo begin
+echo \$date
+
+echo del logfile
+echo del .pl
+echo task getcont = getcont.cl
+echo task getvel = getvel.cl
+echo task getascii = getascii.cl
+
+echo noao
+
+echo imred
+echo ccdred
+echo proto
+echo twod
+echo apex
+echo echelle
+echo images
+echo imgeom
+echo generic
+echo astutil
+echo onedspec
+echo crutil
+
+# copy the images, fix arc headers, delete bad images
+#echo "mkdir ../../extracted/$date" 
+#echo "del ../../extracted/$date/*" 
+#echo "imcopy ../raw/$date/*.fits ./" 
+
+set rawdir = /home/holtz/analysis/echred/raw
+
+foreach arc (`cat $rawdir/$date/arcs.lis`)
+  set fits1 = `printf "$rawdir/$date/$date.%4.4d.fits" $arc`
+  set fits2 = `printf "$rawdir/$date/$date.%4.4d.fit" $arc`
+  if ( -e $fits1 ) then
+    set fits = fits
+  else if ( -e $fits2 ) then
+    set fits = fit
+  endif
+  set out = `printf "$date.%4.4d.fits" $arc`
+  printf "imcopy $rawdir/$date/$date.%4.4d.$fits ./$out \n"  $arc
+  printf "hedit $out "IMAGETYP" "comp" add+ ver-\n" 
+end
+foreach flat (`cat $rawdir/$date/flats.lis`)
+  set out = `printf "$date.%4.4d.fits" $flat`
+  printf "imcopy $rawdir/$date/$date.%4.4d.$fits ./$out \n"  $flat
+  printf "hedit $out "IMAGETYP" "flat" add+ ver-\n" 
+end
+foreach bias (`cat $rawdir/$date/bias.lis`)
+  set out = `printf "$date.%4.4d.fits" $bias`
+  printf "imcopy $rawdir/$date/$date.%4.4d.$fits ./$out \n"  $bias
+  printf "hedit $out "IMAGETYP" "zero" add+ ver-\n" 
+end
+foreach obj (`cat $rawdir/$date/obj.lis | awk '{print $2, $3, $4, $5, $6, $7}'`)
+  set out = `printf "$date.%4.4d.fits" $obj`
+  printf "imcopy $rawdir/$date/$date.%4.4d.$fits ./$out \n"  $obj
+  printf "hedit $out "IMAGETYP" "object" add+ ver-\n" 
+end
+printf "hedit *.fits "BIASSEC" "\[2072:2126,2:2047\]" add+ ver-\n"
+#foreach bad (`cat $rawdir/$date/bad.lis`)
+#  printf "imdel $date.%4.4d.fits\n" $bad
+#end
+if ( $fits == "fit" ) then
+# call fixhead.cl to do UTMIDDLTE, GAIN, RDNOISE, DATE-OBS, FILTER cards
+  printf "cl < fixhead.cl\n"
+endif
+
+# reduce the images to make flats, get wavelength solution,
+#  extract object spectra, flatten, apply wavelength solution
+#  fit continuum
+#  ends up with mash, sig, and cont spectra
+echo "cl < prep.cl"
+echo "\!xvista < xvista.inp"
+if (1) then
+echo "cl < obj.cl"
+
+awk 'NF==2 {printf("\!ln mash'$date'.%4.4d.ec.fits %s.mash.ec.fits\n",$2,$1)} ' $rawdir/$1/obj.lis
+awk 'NF==2 {printf("\!ln sig'$date'.%4.4d.ec.fits %s.sig.ec.fits\n",$2,$1)} ' $rawdir/$1/obj.lis
+awk 'NF==2 {printf("\!ln cont'$date'.%4.4d.ec.fits %s.cont.ec.fits\n",$2,$1)} ' $rawdir/$1/obj.lis
+
+awk 'NF==3 {printf("imsum input=mash'$date'.%4.4d.ec.fits,mash'$date'.%4.4d.ec.fits output=%s.mash.ec.fits\n",$2,$3,$1)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imsum input=cont'$date'.%4.4d.ec.fits,cont'$date'.%4.4d.ec.fits output=%s.cont.ec.fits\n",$2,$3,$1)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$2,$2,$2)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$3,$3,$3)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imsum input=sig2'$date'.%4.4d.ec.fits,sig2'$date'.%4.4d.ec.fits output=sig2%s.ec.fits\n",$2,$3,$1)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imfunc sig2%s.ec.fits %s.sig.ec.fits function=\"sqrt\" verbose-\n",$1,$1)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imdel sig2%s.ec.fits\n",$1)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$2)}' $rawdir/$1/obj.lis
+awk 'NF==3 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$3)}' $rawdir/$1/obj.lis
+
+awk 'NF==4 {printf("imsum input=mash'$date'.%4.4d.ec.fits,mash'$date'.%4.4d.ec.fits,mash'$date'.%4.4d.ec.fits output=%s.mash.ec.fits\n",$2,$3,$4,$1)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imsum input=cont'$date'.%4.4d.ec.fits,cont'$date'.%4.4d.ec.fits,cont'$date'.%4.4d.ec.fits output=%s.cont.ec.fits\n",$2,$3,$4,$1)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$2,$2,$2)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$3,$3,$3)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$4,$4,$4)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imsum input=sig2'$date'.%4.4d.ec.fits,sig2'$date'.%4.4d.ec.fits,sig2'$date'.%4.4d.ec.fits output=sig2%s.ec.fits\n",$2,$3,$4,$1)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imfunc sig2%s.ec.fits %s.sig.ec.fits function=\"sqrt\" verbose-\n",$1,$1)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imdel sig2%s.ec.fits\n",$1)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$2)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$3)}' $rawdir/$1/obj.lis
+awk 'NF==4 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$4)}' $rawdir/$1/obj.lis
+
+awk 'NF==5 {printf("imsum input=mash'$date'.%4.4d.ec.fits,mash'$date'.%4.4d.ec.fits,mash'$date'.%4.4d.ec.fits,mash'$date'.%4.4d.ec.fits output=%s.mash.ec.fits\n",$2,$3,$4,$5,$1)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imsum input=cont'$date'.%4.4d.ec.fits,cont'$date'.%4.4d.ec.fits,cont'$date'.%4.4d.ec.fits,cont'$date'.%4.4d.ec.fits output=%s.cont.ec.fits\n",$2,$3,$4,$5,$1)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$2,$2,$2)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$3,$3,$3)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$4,$4,$4)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imarith sig'$date'.%4.4d.ec.fits * sig'$date'.%4.4d.ec.fits sig2'$date'.%4.4d.ec.fits\n",$5,$5,$5)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imsum input=sig2'$date'.%4.4d.ec.fits,sig2'$date'.%4.4d.ec.fits,sig2'$date'.%4.4d.ec.fits,sig2'$date'.%4.4d.ec.fits output=sig2%s.ec.fits\n",$2,$3,$4,$5,$1)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imfunc sig2%s.ec.fits %s.sig.ec.fits function=\"sqrt\" verbose-\n",$1,$1)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imdel sig2%s.ec.fits\n",$1)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$2)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$3)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$4)}' $rawdir/$1/obj.lis
+awk 'NF==5 {printf("imdel sig2'$date'.%4.4d.ec.fits\n",$5)}' $rawdir/$1/obj.lis
+
+echo "cl < combine.cl"
+
+echo "\!awk -F. '{print "\$1"}' all.list > rv.lis"
+echo 'getvel(inputlist="rv.lis")'
+
+#echo "mv logfile ../../extracted/$date"
+#echo "mv *.fits ../../extracted/$date"
+#echo "mv '$date'* ../../extracted/$date"
+
+#echo "mv all.list ../../extracted/$date"
+#echo "mv targets ../../extracted/$date"
+#echo "mv targets_extracted ../../extracted/$date"
+#echo "mv arcs_extracted ../../extracted/$date"
+endif
+echo \$date
+echo "logout"

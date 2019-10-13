@@ -1,0 +1,12 @@
+Original references
+arcs:
+  arcref  : original old grating
+  newarc  : Diane lots of lines, new grating
+  newref  : less lines, new grating
+  arcnewref : Jean, new grating
+
+apertures:
+  refap: original, old grating
+  echtrace130522: Jean
+  newap: new grating
+  refap_new: new grating, Diane

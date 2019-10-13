@@ -1,0 +1,23 @@
+create link to raw directory in /home/holtz/analysis/hipparcos/raw
+need arcs.lis, flats.lis, bias.lis, obj.lis in raw directory
+
+echred.csh date  (e.g. echred.csh 100105)
+   makes directory
+   copies files
+   makes $date.cl
+   runs $date.cl
+
+December 2010:
+  noticed that scattered light correction wasn't being done,
+  tracked down to incorrect params in eceap that were being used instead
+  of those in aptap (which were correct). Still noticed scattered light
+  subtraction wasn't perfect and had an impact on EWs, so added background
+  subraction in apall; this failed until I hand-edited xmin,xmax in the
+  database/refap file
+
+  Also noticed CR rejection failed at least on a fainter twilight frame as
+  cores of absorption features were being zapped, so added POSITIVE option
+  to only zap positive fluctuations, and shrank box from 7,1 to 5,1
+
+  Also modified script to use local uparm files, not all from the parent
+  directory, in an attempt to keep those latter ones fixed

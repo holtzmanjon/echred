@@ -1,0 +1,4 @@
+input,s,a,"/home/holtz/analysis/hipparcos/raw/071021/071021.0021.fits",,,"Input images"
+output,s,a,"./071021.0021.fits",,,"Output images or directory"
+verbose,b,h,yes,,,"Print operations performed?"
+mode,s,h,"ql",,,

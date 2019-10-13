@@ -1,0 +1,5 @@
+input,s,a," ",,,"Input list of image spectra"
+output,s,a," ",,,"Output list of text spectra"
+header,b,h,no,,,"Include header?"
+wformat,s,h," ",,,"Wavelength format"
+mode,s,h,"ql",,,

@@ -1,0 +1,10 @@
+input,f,a,"ref/arcturus.fits",,,"Input images to be fit"
+output,f,a,"arct_ech.fits",,,"Output images"
+sigma,r,a,8.52,,,"Sigma of Gaussian along major axis of ellipse"
+ratio,r,h,1.,0.,1.,"Ratio of sigma in y to x"
+theta,r,h,0.,0.,180.,"Position angle of ellipse"
+nsigma,r,h,4.,,,"Extent of Gaussian kernel in sigma"
+bilinear,b,h,no,,,"Use bilinear approximation to Gaussian kernel"
+boundary,s,h,"nearest",,,"Boundary (constant,nearest,reflect,wrap)"
+constant,r,h,0.,,,"Constant for boundary extension"
+mode,s,h,"ql",,,

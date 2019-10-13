@@ -1,0 +1,7 @@
+images,s,a,"a.ec.fits",,,"Images to be edited"
+value,r,a,0.,,,"Replacement pixel value"
+imaginary,r,h,0.,,,"Imaginary component for complex"
+lower,r,h,INDEF,,,"Lower limit of replacement window"
+upper,r,h,INDEF,,,"Upper limit of replacement window"
+radius,r,h,0.,,,"Replacement radius"
+mode,s,h,"ql",,,
